@@ -46,3 +46,8 @@ public:
 	}
 };
 
+int main() {
+	pelajar andi("Andi Laksono", "Laki-Laki", "BelajarCpp");
+	cout << andi.perkenalan();
+	return 0;
+};
